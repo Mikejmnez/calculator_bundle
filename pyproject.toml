@@ -17,3 +17,6 @@ dependencies = ["adder>=0.1.0", "multiplier>=0.1.0"]
 
 [project.entry-points."console_scripts"]
 calculate = "calculator_bundle:calculate"
+
+[project.optional-dependencies]
+test = ["pytest"]
