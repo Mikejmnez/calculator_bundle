@@ -10,7 +10,7 @@ authors = [{ name = "Miguel Jimenez-Urias", email = "mjimenez@opendap.org" }]
 license = { text = "MIT" }
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = ["calculator_bundle.adder>=0.1.0", "calculator_bundle.multiplier>=0.1.0"]
+dependencies = ["calculator_bundle.adder @ git+https://github.com/Mikejmnez/calculator_bundle.adder ", "calculator_bundle.multiplier @ git+https://github.com/Mikejmnez/calculator_bundle.multiplier"]
 
 [project.urls]
 "Homepage" = "https://github.com/Mikejmnez/calculator_bundle"
