@@ -1,5 +1,5 @@
-from adder import add
-from multiplier import multiply
+from calculator_bundle.adder import add
+from calculator_bundle.multiplier import multiply
 
 def calculate(a: float, b: float) -> dict:
     return {
